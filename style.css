@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800);
+
+body {
+    background-image: url(./res/fondo.jpg);
+    background-size: cover;
+    font-family: Rubik;
+    font-weight: 300;
+    color: #3D3C42;
+}
+
+.imgProd {
+    display: block;
+    float: right;
+    width: 35%;
+}
+
+.imgProd img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#tituloMenu {
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0;
+    font-weight: 800;
+    text-align: center;
+    color: orangered;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: left;
+    margin: auto;
+    margin-left: 2%;
+    margin-top: 1.5rem;
+    font-weight: 900;
+    font-size: 2rem;
+    padding-bottom: 2%;
+    color: rgb(255, 204, 0);
+    text-shadow: 0px 0px 10px black;
+}
+
+.menu-item:hover {
+    color: #3D3C42;
+    background-color: #c19a79a5;
+}
+
+.item {
+    padding-top: 1rem;
+    line-height: 2rem;
+}
+
+.secciones {
+    display: inline-block;
+    width: 60%;
+    margin-left: 2%;
+    color: white;
+    text-align: left;
+    padding-bottom: 5%;
+    border-top: 3px solid black;
+    text-shadow: 0px 0px 10px black;
+}
+
+.precios {
+    float: right;
+    font-size: 1.5rem;
+}
+
+.secciones p {
+    margin: auto;
+    font-weight: 300;
+    padding-bottom: 3%;
+    margin-right: 20%;
+}
+
+#lista-menu {
+    background-image: url(./res/fondoList.jpeg), linear-gradient(red, #d13531);
+    margin: auto;
+    width: 50vw;
+    height: auto;
+    max-width: 800px;
+    max-height: auto;
+    padding: 2.5%;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5%;
+    box-shadow: 20px 20px 20px #000000, -20px -20px 20px #000000;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
