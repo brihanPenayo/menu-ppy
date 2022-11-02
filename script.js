@@ -3,9 +3,9 @@ const SECCION_PIZZA = document.getElementById('productoPizzas');
 const SECCION_OTROS = document.getElementById('productosOtros');
 
 const LISTA = document.getElementById('lista-menu');
-const SHEET_ID = "1psIyB5-x-eyziTDoC2l5Y_V4hNtF29LMDQ8i5k3f5h0";
+const SHEET_ID = "?";
 const ACCESS_TOKEN =
-  "ya29.a0Aa4xrXNW0c4dwkt-_s7y7kzhds1pHOMEF8KO5_0Rpr379_bbFMFBS3lOR5cSg8whye6CxK486yNoZ2YTLeTV460ngj8lga5ji5VMWMW0L6z_PzZBItc38Mdw2_6hIZz_TqclwScT6t8J4rU7RqvE9J4Hqp_2xwaCgYKATASARESFQEjDvL9qlYRWKWYwxfdsTtPbg-JlA0165";
+  "?";
 
 fetch(
   // Obtenemos los datos de la planilla, de la hoja hojaMenu, columnas A y B desde la segunda fila
